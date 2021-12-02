@@ -1,0 +1,106 @@
+body {
+  background-color: #1b1f22;
+  font-family: 'Quicksand', sans-serif;
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+h1 {
+  font-family: 'Staatliches', cursive;
+  color: #033F63;
+  font-size: 54px;
+  letter-spacing: 7px;
+  font-weight: bolder;
+}
+
+h2 {
+  color: #467599;
+  font-size: 24px;
+}
+
+a {
+  font-size: 54;
+  text-decoration: none;
+  color: rgba(66, 29, 70, 0.603);
+  font-weight: 800;
+}
+
+.media_link {
+  font-size: 54;
+  text-decoration: none;
+  color: rgba(66, 29, 70, 0.603);
+  font-weight: 800;
+}
+
+.media_link:hover {
+  color: #29E09D;
+}
+
+.circle_img {
+  border-radius: 50%;
+}
+
+.card {
+  background-color: #FFFFFF;
+  margin: 24px auto;
+  width: 700px;
+  padding: 32px;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+}
+
+.container {
+  width: 575px;   /* This sets the width */
+  margin: 24 auto; /* This automatically sets left/right margins */
+  text-align: center;
+}
+
+.logo_eak {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 40px -7px;
+  border-radius: 7px;
+  padding: 12px;
+  margin: 12px auto;
+}
+
+.logo_eak:hover {
+  background-color: #5EE8B6;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.saft_box {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 40px -7px;
+  border-radius: 7px;
+  padding: 12px;
+  margin: 12px auto;
+  color: #29E09D;
+  background-color: #1b1f22;
+}
+
+.saft_box:hover {
+  background-color: #5EE8B6;
+  color: #1b1f22;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
